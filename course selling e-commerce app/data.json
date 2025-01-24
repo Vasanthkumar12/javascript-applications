@@ -1,0 +1,223 @@
+{
+    "1": {
+      "bestseller": true,
+      "title": "Introduction to JavaScript",
+      "instructor": "Chandra",
+      "total_duration": 3,
+      "review": 47898,
+      "rating": 4.7,
+      "lectures": 50,
+      "level": "intermediate",
+      "price": 49.99
+    },
+    "2": {
+      "bestseller": false,
+      "title": "Advanced Python Programming",
+      "instructor": "Anisha",
+      "total_duration": 5,
+      "review": 18976,
+      "rating": 4.5,
+      "lectures": 60,
+      "level": "advanced",
+      "price": 59.99
+    },
+    "3": {
+      "bestseller": true,
+      "title": "React Basics and Beyond",
+      "instructor": "Ravi",
+      "total_duration": 4,
+      "review": 25687,
+      "rating": 4.8,
+      "lectures": 45,
+      "level": "beginner",
+      "price": 39.99
+    },
+    "4": {
+      "bestseller": true,
+      "title": "Full-Stack Web Development",
+      "instructor": "Priya",
+      "total_duration": 6,
+      "review": 34587,
+      "rating": 4.9,
+      "lectures": 70,
+      "level": "advanced",
+      "price": 69.99
+    },
+    "5": {
+      "bestseller": false,
+      "title": "Data Structures in C++",
+      "instructor": "Vikram",
+      "total_duration": 4,
+      "review": 15873,
+      "rating": 4.4,
+      "lectures": 55,
+      "level": "intermediate",
+      "price": 44.99
+    },
+    "6": {
+      "bestseller": true,
+      "title": "Machine Learning A-Z",
+      "instructor": "Sanjana",
+      "total_duration": 7,
+      "review": 48976,
+      "rating": 4.6,
+      "lectures": 80,
+      "level": "advanced",
+      "price": 79.99
+    },
+    "7": {
+      "bestseller": false,
+      "title": "Introduction to HTML and CSS",
+      "instructor": "Naveen",
+      "total_duration": 2,
+      "review": 8754,
+      "rating": 4.3,
+      "lectures": 25,
+      "level": "beginner",
+      "price": 29.99
+    },
+    "8": {
+      "bestseller": true,
+      "title": "Docker and Kubernetes Essentials",
+      "instructor": "Deepak",
+      "total_duration": 5,
+      "review": 21897,
+      "rating": 4.7,
+      "lectures": 65,
+      "level": "intermediate",
+      "price": 54.99
+    },
+    "9": {
+      "bestseller": false,
+      "title": "Flutter Development",
+      "instructor": "Kiran",
+      "total_duration": 4,
+      "review": 17234,
+      "rating": 4.5,
+      "lectures": 50,
+      "level": "beginner",
+      "price": 42.99
+    },
+    "10": {
+      "bestseller": true,
+      "title": "Angular for Beginners",
+      "instructor": "Mahesh",
+      "total_duration": 4,
+      "review": 23456,
+      "rating": 4.8,
+      "lectures": 40,
+      "level": "beginner",
+      "price": 49.99
+    },
+    "11": {
+      "bestseller": false,
+      "title": "SQL Masterclass",
+      "instructor": "Divya",
+      "total_duration": 3,
+      "review": 14356,
+      "rating": 4.6,
+      "lectures": 35,
+      "level": "intermediate",
+      "price": 39.99
+    },
+    "12": {
+      "bestseller": true,
+      "title": "Java Essentials",
+      "instructor": "Arun",
+      "total_duration": 5,
+      "review": 28754,
+      "rating": 4.8,
+      "lectures": 60,
+      "level": "intermediate",
+      "price": 59.99
+    },
+    "13": {
+      "bestseller": false,
+      "title": "Artificial Intelligence Basics",
+      "instructor": "Shruti",
+      "total_duration": 6,
+      "review": 17298,
+      "rating": 4.4,
+      "lectures": 75,
+      "level": "advanced",
+      "price": 64.99
+    },
+    "14": {
+      "bestseller": true,
+      "title": "Cybersecurity Essentials",
+      "instructor": "Rajeev",
+      "total_duration": 3,
+      "review": 19834,
+      "rating": 4.7,
+      "lectures": 30,
+      "level": "beginner",
+      "price": 44.99
+    },
+    "15": {
+      "bestseller": false,
+      "title": "Data Analysis with Excel",
+      "instructor": "Meera",
+      "total_duration": 2,
+      "review": 9234,
+      "rating": 4.3,
+      "lectures": 20,
+      "level": "beginner",
+      "price": 29.99
+    },
+    "16": {
+      "bestseller": true,
+      "title": "Node.js Complete Guide",
+      "instructor": "Akhil",
+      "total_duration": 5,
+      "review": 31234,
+      "rating": 4.9,
+      "lectures": 60,
+      "level": "intermediate",
+      "price": 64.99
+    },
+    "17": {
+      "bestseller": false,
+      "title": "UI/UX Design Basics",
+      "instructor": "Isha",
+      "total_duration": 3,
+      "review": 15789,
+      "rating": 4.5,
+      "lectures": 30,
+      "level": "beginner",
+      "price": 39.99
+    },
+    "18": {
+      "bestseller": true,
+      "title": "Big Data with Hadoop",
+      "instructor": "Rajesh",
+      "total_duration": 6,
+      "review": 27854,
+      "rating": 4.6,
+      "lectures": 80,
+      "level": "advanced",
+      "price": 69.99
+    },
+    "19": {
+      "bestseller": true,
+      "title": "DevOps Fundamentals",
+      "instructor": "Karthik",
+      "total_duration": 5,
+      "review": 24678,
+      "rating": 4.8,
+      "lectures": 55,
+      "level": "intermediate",
+      "price": 59.99
+    },
+    "20": {
+      "bestseller": false,
+      "title": "Introduction to Blockchain",
+      "instructor": "Pooja",
+      "total_duration": 4,
+      "review": 13578,
+      "rating": 4.5,
+      "lectures": 45,
+      "level": "intermediate",
+      "price": 49.99
+    }
+  }
+  
