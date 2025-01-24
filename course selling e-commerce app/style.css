@@ -5,14 +5,34 @@ body {
     display: flex;
     justify-content: center;
 }
-#root {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+#course-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgb(227, 227, 234);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#rating {
+    color: rgb(255, 111, 0);
+    font-size: 16px;
+}
+#review {
+    font-size: 16px;
+}
+#best {
+    background-color: rgb(255, 6, 6);
+    width: 130px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    padding-top: 12px;
+    color: rgb(255, 247, 0);
 }
 #course-card {
-    width: 500px;
-    height: 500px;
+    min-width: 300px;
+    min-height: 400px;
     background-color: aliceblue;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -29,31 +49,72 @@ body {
 }
 #course-body {
     padding-left: 20px;
-    font-size: 20px;
+    font-size: 24px;
     flex: 1;
 }
-#course-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    background-color: rgb(227, 227, 234);
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+#course-body {
+    padding-left: 20px;
+    font-size: 24px;
+    flex: 1;
 }
-#rating {
-    color: rgb(255, 111, 0);
-    font-size: 20px;
+@media (max-width: 576px) {
+    #root {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 30px;
+    }
+    #course-header h1 {
+        font-size: 16px;
+    }
+    #course-body {
+        font-size: 16px;
+    }
 }
-#review {
-    font-size: 20px;
+
+/* Tablets */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Tablets styles */
+    #root {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    #course-header h1 {
+        font-size: 16px;
+    }
+    #course-body {
+        font-size: 16px;
+    }
 }
-#best {
-    background-color: rgb(255, 6, 6);
-    width: 130px;
-    height: 25px;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    padding-top: 12px;
-    color: rgb(255, 247, 0);
+
+/* Small Laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Small laptops styles */
+  #root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  #course-header h1 {
+    font-size: 16px;
+  }
+  #course-body {
+    font-size: 16px;
+  }
+}
+
+/* Desktops */
+@media (min-width: 1025px) {
+  /* Desktops styles */
+  #root {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  #course-header h1 {
+    font-size: 24px;
+  }
+  #course-body {
+    font-size: 24px;
+  }
 }
